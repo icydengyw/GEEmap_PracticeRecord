@@ -47,5 +47,15 @@ conda update -c conda-forge geemap
 ```
 
 Then, you could use geemap in Jupyter notebook!
+Remember to authenticate using the following codes for the first time, and you do not need to do it again in the future. I believe you have a GEE account already.
+PS: Open in a now tab and copy the verify code and paste it into the box
+```python
+import ee
+#Trigger the authentication flow.
+ee.Authenticate()
+#Initialize the library.
+ee.Initialize()
+
+```
 
 
