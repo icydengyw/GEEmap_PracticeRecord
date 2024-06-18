@@ -40,6 +40,10 @@ python -m ipykernel install --name gee
 
 # Use mamba to install jupyter_contrib_nbextensions
 mamba install jupyter_contrib_nbextensions -c conda-forge
+
+# Update geemap to the latest version
+conda update -c conda-forge geemap
+
 ```
 
 Then, you could use geemap in Jupyter notebook!
