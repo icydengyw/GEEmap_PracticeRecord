@@ -68,6 +68,6 @@ Map = geemap.Map(center=(40, -100), zoom=4)
 Map
 ```
 
-[Examples](docs/Example_1.md)
+[Download image to local storage](Examples/Example_01.md)
 
 
