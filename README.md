@@ -1,7 +1,7 @@
 # Geemap Learning and Notes
 
 Welcome to the Geemap Learning and Notes repository! This repository is designed for newcomers to geemap, a powerful Python package for interactive mapping with Google Earth Engine (GEE). Here, you'll find a collection of tutorials, example scripts, and notes that will help you get started with geemap and harness its full potential. Let's start!😊
-![image](https://github.com/icydengyw/GEEmap_PracticeRecord/assets/48988534/4443bbbe-c7ed-4288-97f8-30a6556c3bc3)
+![image](https://github.com/icydengyw/GEEmap_PracticeRecord/assets/48988534/909d580d-07cb-41cf-8fcc-d016e833afa2)
 
 
 ## What is Geemap?
