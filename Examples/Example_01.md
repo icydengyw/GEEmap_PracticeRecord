@@ -1,6 +1,7 @@
 Here, we show the example of exporting the water occurrence image from the JRC GSW data set to local storage.
 
 ![image](https://github.com/icydengyw/GEEmap_PracticeRecord/assets/48988534/4f7b1f05-c1a0-44ee-bbbf-d1d630d54017)
+![image](https://github.com/icydengyw/GEEmap_PracticeRecord/assets/48988534/84bffc00-a171-4136-abba-42d2b84fe5e6)
 
 ```python
 import geemap
