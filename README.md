@@ -57,5 +57,15 @@ ee.Authenticate()
 ee.Initialize()
 
 ```
+Let's try our first code!
+```python
+# Create an interactive map
+import ee
+import geemap
+Map = geemap.Map(center=(40, -100), zoom=4)
+Map
+```
+
+[Examples](docs/Example_1.md)
 
 
