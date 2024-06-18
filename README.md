@@ -67,7 +67,8 @@ import geemap
 Map = geemap.Map(center=(40, -100), zoom=4)
 Map
 ```
+# Examples and cases
 
-[Download image to local storage](Examples/Example_01.md)
+- [Download image to local storage](Examples/Example_01.md)
 
 
