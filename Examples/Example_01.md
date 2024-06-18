@@ -1,7 +1,22 @@
 Ref: https://geemap.org/notebooks/118_download_image/
 Here, we show the example of exporting the water occurrence image from the JRC GSW data set to local storage.
 `download_ee_image` is better suited for downloading original data rather than computed data. 
+```python
+import os
+import geemap
+import ee
+out_tif = os.path.join(work_dir, "xxx.tif")
+composite = collection.median().clip(roi)
 
+geemap.download_ee_image(
+   image=composite,
+   filename=out_tif,
+   region=roi,
+   crs="EPSG:4326",
+   scale=10,
+)
+
+```
 ![image](https://github.com/icydengyw/GEEmap_PracticeRecord/assets/48988534/4f7b1f05-c1a0-44ee-bbbf-d1d630d54017)
 ![image](https://github.com/icydengyw/GEEmap_PracticeRecord/assets/48988534/84bffc00-a171-4136-abba-42d2b84fe5e6)
 
