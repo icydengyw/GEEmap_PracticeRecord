@@ -38,8 +38,10 @@ mamba install ipykernel
 # Create a new IPython kernel for the gee environment
 python -m ipykernel install --name gee
 
-# Use mamba to install jupyter_contrib_nbextensions
+# Use mamba to install jupyter_contrib_nbextensions  https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231
+# I enabled Table of Contents / Autopep8: neat code in one click / Variable inspector: keep track of your workspace / ExecuteTime: show when and how long cells ran
 mamba install jupyter_contrib_nbextensions -c conda-forge
+jupyter contrib nbextension install --user
 
 # Update geemap to the latest version
 conda update -c conda-forge geemap
