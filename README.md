@@ -72,5 +72,8 @@ Map
 # Examples and cases
 
 - [Download image to local storage](Examples/Example_01.md)
+- 
+# Notes about GEE or geemap
+- [Comparison of mask, unmask and updatemask](Notes/Note_01.md)
 
 
